@@ -1,6 +1,6 @@
 import React from 'react'
 import './NewExpense.css';
-import { ExpenseForm } from './ExpenseForm';
+import { ExpenseForm } from './ExpenseForm/ExpenseForm';
 import { v4 as uuidv4 } from 'uuid';
 
 export const NewExpense = (props) => {
