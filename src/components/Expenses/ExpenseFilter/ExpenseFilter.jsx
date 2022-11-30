@@ -6,7 +6,6 @@ export const ExpenseFilter = (props) => {
 
   const selectFilterHandler = (e) => {
     props.onSelectedYear(e.target.value);
-    console.log(e.target.value);
   };
 
   return (
